@@ -12,13 +12,13 @@ npm install parcel-bundler --save-dev
 ## Frameworks
 
 [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+
 [Parcel](https://ru.parceljs.org/getting_started.html)
 
 ---
 
 ```
 git init
-git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin git@github.com:DmitryLavrov/js-constructor.git
