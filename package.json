@@ -1,0 +1,24 @@
+{
+  "name": "js-constructor",
+  "version": "1.0.0",
+  "description": "```\r npm init -y\r npm install parcel-bundler --save-dev\r ```",
+  "main": "index.js",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 4200 --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitryLavrov/js-constructor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitryLavrov/js-constructor/issues"
+  },
+  "homepage": "https://github.com/DmitryLavrov/js-constructor#readme"
+}

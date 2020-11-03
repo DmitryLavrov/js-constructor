@@ -1,5 +1,5 @@
 const model = [
-  { type: "title", value: "Hello World from JS" },
+  { type: "title", value: "Hello World from JS!!!" },
   { type: "text", value: "Some text" },
   {
     type: "columns",
