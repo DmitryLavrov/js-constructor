@@ -9,7 +9,7 @@ site.render(model);
 
 const updateCallback = (newBlock) => {
   model.push(newBlock);
-  site.render;
+  site.render(model);
 };
 
 new Sidebar("#panel", updateCallback);

@@ -31,5 +31,8 @@ export class Sidebar {
         : new TitleBlock(value, { styles });
 
     this.update(newBlock);
+
+    event.target.value.value = "";
+    event.target.styles.value = "";
   }
 }
