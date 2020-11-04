@@ -1,7 +1,13 @@
 import image from "./assets/image.png";
 
 export const model = [
-  { type: "title", value: "Hello World from JS!!!" },
+  {
+    type: "title",
+    value: "Hello World from JS!!!",
+    options: {
+      tag: "h2",
+    },
+  },
   { type: "text", value: "Some text" },
   {
     type: "columns",
