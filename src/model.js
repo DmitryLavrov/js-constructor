@@ -55,6 +55,11 @@ export const model = [
         display: "flex",
         "justify-content": "center",
       },
+      imageStyles: {
+        width: "500px",
+        height: "auto",
+      },
+      alt: "Это картинка",
     },
   },
 ];
