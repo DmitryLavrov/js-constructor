@@ -1,16 +1,12 @@
 import { model } from "./model";
-// import { templates } from "./templates";
 import "./styles/main.css";
+import { Site } from "./classes/site";
 
-const $site = document.querySelector("#site");
+const site = new Site("#site");
 
-// console.log(templates["title"]({ value: "text" }));
+// model.forEach((block) => {
 
-model.forEach((block) => {
-  // console.log(block.toHTML());
+//   site.insertAdjacentHTML("beforeend", block.toHTML());
+// });
 
-  // const toHTML = templates[block.type];
-
-  // $site.insertAdjacentHTML("beforeend", toHTML(block));
-  $site.insertAdjacentHTML("beforeend", block.toHTML());
-});
+site.render(model);
