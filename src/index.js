@@ -1,12 +1,10 @@
 import { model } from "./model";
 import "./styles/main.css";
 import { Site } from "./classes/site";
+import { Sidebar } from "./classes/sidebar";
 
 const site = new Site("#site");
 
-// model.forEach((block) => {
-
-//   site.insertAdjacentHTML("beforeend", block.toHTML());
-// });
-
 site.render(model);
+
+const sidebar = new Sidebar("#panel");
