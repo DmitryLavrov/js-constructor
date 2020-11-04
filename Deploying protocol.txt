@@ -1,0 +1,43 @@
+Команды:
+
+firebase login
+firebase init
+firebase deploy
+
+Вопросы:
+
+? Which Firebase CLI features do you want to set up for this folder? Press Space to select features, then Enter to confirm your choices. Hosting: Configure and deploy Firebase Hosting sites 
+
+? Please select an option: Use an existing project
+? Select a default Firebase project for this directory: js-constructor-dmi (JS-constructor-dmi) 
+
+? What do you want to use as your public directory? dist
+? Configure as a single-page app (rewrite all urls to /index.html)? Yes
+? Set up automatic builds and deploys with GitHub? No
+? File dist/index.html already exists. Overwrite? No
+i  Skipping write of dist/index.html
+
+i  Writing configuration info to firebase.json...
+i  Writing project information to .firebaserc...
+
++  Firebase initialization complete!
+
+__________________________________________________________________________
+
+$ firebase deploy
+
+=== Deploying to 'js-constructor-dmi'...
+
+i  deploying hosting
+i  hosting[js-constructor-dmi]: beginning deploy...
+i  hosting[js-constructor-dmi]: found 4 files in dist
++  hosting[js-constructor-dmi]: file upload complete
+i  hosting[js-constructor-dmi]: finalizing version...
++  hosting[js-constructor-dmi]: version finalized
+i  hosting[js-constructor-dmi]: releasing new version...
++  hosting[js-constructor-dmi]: release complete
+
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/js-constructor-dmi/overview
+Hosting URL: https://js-constructor-dmi.web.app

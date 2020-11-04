@@ -7,7 +7,17 @@
 ```
 npm init -y
 npm install parcel-bundler --save-dev
+npm install -g firebase-tools
 ```
+
+---
+
+### Проект размещен на хостинге Firebase:
+
+https://js-constructor-dmi.web.app
+https://js-constructor-dmi.firebaseapp.com
+
+---
 
 ## Frameworks
 
@@ -15,7 +25,7 @@ npm install parcel-bundler --save-dev
 
 [Parcel](https://ru.parceljs.org/getting_started.html)
 
----
+## [Firebase ](https://firebase.google.com/)
 
 ```
 git init
