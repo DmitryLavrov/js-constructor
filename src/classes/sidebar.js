@@ -15,7 +15,7 @@ export class Sidebar {
   }
 
   get template() {
-    return [block("text"), block("title")].join("");
+    return [block("title"), block("text")].join("");
   }
 
   add(event) {

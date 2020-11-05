@@ -20,3 +20,10 @@
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
   overflow-y: auto;
 }
+
+.sidebar-container {
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 2px solid gray;
+  border-radius: 5px;
+}

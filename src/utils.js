@@ -14,6 +14,7 @@ export function css(styles = {}) {
 
 export function block(type) {
   return `
+  <div class="sidebar-container">
     <form name="${type}">
       <h5>${type}</h5>
         <div class="form-group">
@@ -22,7 +23,8 @@ export function block(type) {
         <div class="form-group">
           <input class="form-control form-control-sm" name="styles" placeholder="styles">
         </div>
-        <button type="submit" class="btn btp-primary btn-sm">Добавить</button>
+        <button type="submit" class="btn btn-primary btn-sm">Добавить</button>
     </form>
+  </div>
   `;
 }
