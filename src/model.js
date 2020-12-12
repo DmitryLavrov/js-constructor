@@ -62,6 +62,7 @@ export const model = [
     imageStyles: {
       width: "500px",
       height: "auto",
+      "object-fit": "cover",
     },
     alt: "Это картинка",
   }),
